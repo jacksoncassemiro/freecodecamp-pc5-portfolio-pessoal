@@ -1,7 +1,50 @@
-body {
+/* VARIAVEIS GLOBAIS */
+:root {
+    
+    --bg-color1: #000;
+    --bg-color2: #363636;
+    --bg-color3: #797979;
+    --bg-color4: #001242;
+
+    --font-color1: #fff;
+    --font-color2: #a1a1a1;
+    --font-color3: #1f1f1f;
+
+}
+
+/* RESET GERAL DA PÁGINA */
+html {
+    box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+    font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    list-style: none;
+    font: inherit;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    height: 100vh;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
 }
+
+/* HEADER E NAVBAR */
+
+
+/* MAIN */
+
+
+/* FOOTER */
